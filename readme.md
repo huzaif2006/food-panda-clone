@@ -3,8 +3,7 @@
 This is a frontend clone of the Foodpanda website created to practice layout building and responsive web design. The project focuses on replicating the visual structure and responsiveness of the original website using modern CSS techniques.
 
 ## live link
-
-[Live Website](https://foodpandas.vercel.app/)
+([Live website](https://foodpandas.vercel.app/))
 
 
 ## Features
