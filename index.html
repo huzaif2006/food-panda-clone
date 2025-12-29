@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./stylling/globals.css" />
+    <link rel="stylesheet" href="./stylling/header.css" />
+    <link rel="stylesheet" href="./stylling/style.css" />
+    <link rel="stylesheet" href="./stylling/footer.css">
+    <link rel="stylesheet" href="./stylling/responsive.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- navbar -->
+      <nav>
+        <a href="#"
+          ><img
+            src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg"
+            alt=""
+            width="180"
+        /></a>
+        <div>
+          <ul class="navlinks">
+            <li><a href="/">Home </a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Newsroom</a></li>
+            <li><a href="">Patners</a></li>
+            <li><a href="">Panda ads</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="" id="pinkbtn">Choose location</a></li>
+          </ul>
+          <button class="search-btn"><i class="ri-search-line"></i></button>
+        </div>
+        <button class="mobile-menu"><i class="ri-menu-line"></i></button>
+      </nav>
+
+      <!-- hero section -->
+      <section class="hero-section">
+        <h1>
+          food <br />
+          and groceries <br />
+          in a tap
+        </h1>
+        <div class="sheet"></div>
+      </section>
+    </header>
+
+    <!-- main section -->
+    <main>
+      <!-- section zero  -->
+
+      <div class="section-zero">
+        <h2>
+          We’re here to help you <br />
+          live life the panda way. <br />
+          Spend more time doing what you <br />
+          love – we’ll take care of tasty meals, <br />
+          fresh groceries and new flavours.
+        </h2>
+      </div>
+      <!-- section 1 -->
+      <section class="secton1">
+        <div class="sec1-img">
+          <img
+            src="https://www.foodpanda.com/wp-content/uploads/2025/07/fp-home-900x506.webp"
+            alt="about-img"
+          />
+        </div>
+        <div class="sec1-text">
+          <h2>Meet the next generation of delivery!</h2>
+          <p>
+            What makes quick commerce quick? We stand for swift personalised
+            delivery solutions for our customers, partners and employees. Learn
+            how we empower authentic lifestyles and drive innovation across the
+            globe.
+          </p>
+          <a href="" id="pinkbtn">About</a>
+        </div>
+      </section>
+      <!-- section 2 -->
+      <section class="secton1 section2">
+        <div class="sec1-img">
+          <img
+            src="https://www.foodpanda.com/wp-content/uploads/2025/07/foodpanda-home-2-900x506.webp"
+            alt="fast-delivery"
+          />
+        </div>
+        <div class="sec1-text">
+          <h2>Taste the convenience.</h2>
+          <p>
+            Try us out! Delicious food and speedy groceries are at your
+            fingertips. Go ahead, download foodpanda now.
+          </p>
+          <div class="sec2-external">
+            <a href="#"
+              ><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJQAAAAsCAMAAAC0e2H+AAAAe1BMVEVHcEy/v78AAADIEC6/v7/AwcG/v7/AwsK/v7+/wMD////AwcEgICC/v79gYGCAgIAwMDBAQEAQDg+fn5/w7++QkJDf399QUFBwcHCur6/srLfVR17NJEDljJvyxMyzDinfc4TPz8/aW2+gDCSFCh5NBhE+BQ5ISEgyBAxfStaZAAAACnRSTlMAQP//GNZbvn+WknhVRwAAA/pJREFUeNrdmYtuozoURTsnfUz2PbbxG8g7TWfu/3/htR0SILeoSjuV0CwJsnM4wis4QsR5yPxYPol/ZoB4WT4+nHl88ZFpFnBsfp6dniTNB1bFajknJyJjf6QL1RiaFdXLw8NzTTOjeXxYRpoZ9fPDsqKZkaRehlK/TrvdYsTu9fRGPQJAFWqKgYVzghmUUCEESYzgPDEAQQlogUR9aYjEUCkq+gD5cyhlXhfvsjO9lEw77UyQOVpbpHwwVDmdMruqVM5SpT3jD6kBml3gu6V2iwlee6maOQ9iaSDldNo1vkgxg9mMpLoG4dnV4l6pt8Ukv65SQSSfCJXioXFcpMBERfDgamIIIcdSfQOJ+k6p6+St/hdOo+kzwTtDQlWGipST5UjKh5remz4XLw2Vs3dJ9bPXrheF9eb6rbpKKa2Nt+Sb84AMras6aPaBy5hcKjdSfQMp3Ce1uLDqZPbHa4k6vBCCGyYjKq+zVHqvSArhOWWi2ueKL/4VUeop9A1GyM9IJdpV53aFvoE7pdZtu9+3m/WspJLW8ZiUZiaV+eulZG2ItNTfJ6VsJJrGSCuEl4YGAExkob5NigFB00iHQvOnpLaLzWqb7wXb1X5/bNfbTdumwljKwkHTFBEQ2lBVxz8mtdkWqVWbhNrtfr/Z7he3UgEenhKVrCgq2afuKF1hqVTkGyldq1hmWRLXkaU8d+pJqXXyWe/3beuS196tN8f1rZSEMHAmJQURAAS+JkMSjodXrRwfSXmcOwmoHLwBdLn8fkpqsziu1u1mvU83qtUxvRzT9G3GUgIybapIwUYZYK/Jk4egK+w1VweIoZREqIxHk2tOSN2dy4G/8EVnBKKIQ5YqAhJukARsSpyhMxpuKBWgiQxgCPDF4XxCQV+QUnlU46AvUgxwn5oiFQCUwWulPDCQMoBIANW51p3LQn5FKuBM876UL8lbm4dSwEGIkRQDtnCVIp/KDvwFqQgnMnCmk9JAn/LGnbw2gCTisVRJhUvSCBHN9EPexw/pDWrKHKA6FQvRp3zgYDopBlKsRlLk4MdSuSQgJx+HJznRmf6DKhzS5mL0QDVIxAHB17UFtHFoonJnKavJI9RUpyilbwZSCgif+OHwNrhJUcEAWiHjJNE1Jdgi4zxngWQLMKVaQxopdr1DqQqw9//E2tEFw6ZLzEZB6FjlQknaXJpS5pJYpyLnrGPac6zKYZlbS73ADnpSykxYvRp6l6QySJ9HIdCUVOLt9Hp7kXanf4m+USpaAfCN1FLTR3yrlAUOkYbItOrymz6LGaTPYwyNUc8zXDSzj/NbXuSnvBA7s0vVPM9uydr4biF92fyex+K+Ydlkp1n9DfL09LP8DfIftSyKTaub6JQAAAAASUVORK5CYII="
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIQAAAAsCAMAAACT1eAWAAAAS1BMVEWfn58AAAD///+mpqakpKSkpKSlpaWnp6enp6eNjY0SEhKAgIAgICDf39+goKBAQEC/v79gYGCQkJBwcHDv7+8wMDBRUVGwsLDQ0NAAYI2wAAAACnRSTlMC////VCSwzp36Nv1RaAAAA7xJREFUeNrNWIty4jAMjHSlMJIsv+38/5debKdAaEN77cylO5nMjgxivZJFYGp4uZz/HILz5WVa8cqW4BCIDZfT1HAucCDKuWm4FDgU/nWaTgEOhp6mFw8Ho7xMrxkORr5M58NFyHl6JTgYdJ7OtHeE4R7W+yLwEcJjOH7srS97IvacEIe6Cajjaj5U4R6jauEdDAD7f3RCDKLfZmaA4EDcHKD4ljFIZDNLExGNyyDOKC1UaxfBpi30O0BAJ8xuzi0Bf7EnFDHJOxFiwEUIbCuY5QJVCgpOrCFJZAtUL0YkNRG+UnSgAZTfnKgUKhgLzn7NiYQY4Z2IPAMSlJYpzLaCevBNBDPAnEWd8aWOcrQ1wEb5KoLBOkDnDH/JCcGu9lGEKqQMUaFWG6q/iogVIInzUH2eAeb23sAg5k4ErSISAdFnTljmAkBgg/K9EDUuOQFvdBaICSzKVQTN1THwrMbD7GrfgJhq+CbCVRoiYkvw3IlscIHRkLBB5SZXRMbJpXbvF1G/mvTcbkILt0Qt0sj6ipG5ExkJnjohCbdw0PB/J6bBLfpg+M8Ts+AD/INk+UrK4u1PnNDnxbCI/GlC1x3k7zvhcAt+N8HMZxoMmsDapwy5+h0nzHMRJjn8xOmIhrpniUDQfMeJGbcIcI+CGkco+wyFo3Qq5Bsd0FV4ULERU+8Oiuu69+CZxijad6LiFumhGoVGiFG7Xt8om0E7ApqbntFVfN0PYkAUGl2T95yIuG/FcHfUgxHnYhVRFpo6TXIdNNXnRnPBZDN4TFG8aQ7hQj0pOpsZDe04YRH3u8KjNpmuiRj7dRhulNeEY+TGobqX2L81CaLt0eGT35uYCXe9GCZQStRE1CFrXqgOWmFFjjUhuvXjCJFGz2dA7J3l/ALFsDcxGR8ht2qgWYAYeyMM48wd3R4StEOEIF630CnjCt1zgh6t0Lu8ySxIvddGvHQnwqBuFNTSes5468T8JiJilQ7acwLK7neHwQKwJmVM1OuqNxrWetrrqwVNZ3b4SEOERbee8v3nibDz3ZF7xrUFGbFmCYj5RmWtZ/IEWZt8wZT7+LJg5+Yd4kgQBKxBu+vEmBVJ1T2cDUUdJI5uNGP9RrebSHkMYPcWcdRE3M4P8tNnTM+lRcSz3URlEGImRpaooa03yoMO2OCcRmpUWGOPqPZ15jWXarA//gXGyFv68+eJXyFC4F8RTdzQnz/eXTIcjPw6vRQ4GP4ynRQORjhN08XDoSiX3/AX4qmJOF2CFTgEZPm8KPgVfyv/BdNDTpXBNLqXAAAAAElFTkSuQmCC"
+                alt=""
+            /></a>
+            <a href="#">
+              <img
+                src="https://www.foodpanda.com/wp-content/uploads/2023/02/app-google.png"
+                alt=""
+              />
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- section 3 -->
+      <section class="secton1">
+        <div class="sec1-img">
+          <img
+            src="https://www.foodpanda.com/wp-content/uploads/2025/07/fp-home-3-900x600.webp"
+            alt="about-img"
+          />
+        </div>
+        <div class="sec1-text">
+          <h2>Find the job you’d love</h2>
+          <p>
+            Hungry to make a difference? There’s a seat at our table! Find out
+            how we connect tech, passions, projects and people – explore
+            international career opportunities at foodpanda.
+          </p>
+          <a href="" id="pinkbtn">Join us!</a>
+        </div>
+      </section>
+
+      <!-- section 4  -->
+
+      <section class="press-section">
+        <div class="press-header">
+          <h2>Have you heard?</h2>
+          <p>
+            The industry is changing fast! Stay up to date with foodpanda press.
+            Catch up on the latest news, updates and reports here.
+          </p>
+        </div>
+
+        <div class="press-carousel">
+          <!-- Card 1 -->
+          <article
+            class="press-card"
+            style="
+              background-image: url('https://www.foodpanda.com/wp-content/uploads/2025/07/fp-home-900x506.webp');
+            "
+          >
+            <span class="tag">Business</span>
+            <h3>
+              foodpanda brings unmatched value to pandapro members with
+              one-of-a-kind ride-hailing partnerships across Asia
+            </h3>
+            <time>21.11.2025</time>
+          </article>
+
+          <!-- Card 2 -->
+          <article
+            class="press-card"
+            style="
+              background-image: url('https://www.foodpanda.com/wp-content/uploads/2024/06/Key-KV-1.png');
+            "
+          >
+            <span class="tag">Press Release</span>
+            <h3>
+              foodpanda Singapore strengthens support for delivery partners
+              through signed MOU with NDCA
+            </h3>
+            <time>25.04.2025</time>
+          </article>
+
+          <!-- Card 3 -->
+          <article
+            class="press-card"
+            style="
+              background-image: url('https://play-lh.googleusercontent.com/BkL3lM43uXy83kVTY5WcAoSgHf6BhcarIi5CF8QIagdm757Gvn9wMRiquXBxFunN2D1I=w526-h296-rw');
+            "
+          >
+            <span class="tag">Business</span>
+            <h3>foodpanda delivered 2024</h3>
+            <time>31.01.2025</time>
+          </article>
+
+          <!-- Card 4 -->
+          <article
+            class="press-card"
+            style="
+              background-image: url('https://lh7-rt.googleusercontent.com/docsz/AD_4nXfrsgWI7qWjR4OijVbUN1Hl03CmDBWs5MMiBthTEKgpZNOI9X9avNZTbDs5YBbbqtrIeTbbTs8kABKC02vWxgHoORbMngPEF17Q_TjDGIDtEycU1xWBxiXfZUEUkYcm8CsNVARvLcyQeva4GwK-ROA?key=pWJtATLoIBGymAyV52ETqUJn');
+            "
+          >
+            <span class="tag">Business</span>
+            <h3>
+              foodpanda partners with Fiserv to enable streamlined and secure
+              eCommerce payments across Asia
+            </h3>
+            <time>23.10.2024</time>
+          </article>
+
+          <!-- Card 5 -->
+          <article
+            class="press-card"
+            style="
+              background-image: url('https://images.deliveryhero.io/image/fd-pk/LH/nqiz-listing.jpg');
+            "
+          >
+            <span class="tag">Business</span>
+            <h3>
+              foodpanda partners with Fiserv to enable streamlined and secure
+              eCommerce payments across Asia
+            </h3>
+            <time>23.10.2024</time>
+          </article>
+        </div>
+      </section>
+
+      <!-- section 5  -->
+      <section class="secton1 section2">
+        <div class="sec1-img">
+          <img
+            src="https://www.foodpanda.com/wp-content/uploads/2025/07/foodpanda-home-4.webp"
+            alt="about-img"
+          />
+        </div>
+        <div class="sec1-text">
+          <h2>Feed your team.</h2>
+          <p>
+            Treat your talented team to their favourite meals. Let them pick!
+            Explore flexible corporate food delivery options and tasty employee
+            perks.
+          </p>
+          <a href="" id="pinkbtn">Explore</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <!-- Logo -->
+        <div class="footer-brand">
+          <img
+            src="https://cdn.worldvectorlogo.com/logos/foodpanda-logo.svg"
+            alt="foodpanda"
+          />
+        </div>
+
+        <!-- Links -->
+        <div class="footer-columns">
+          <div class="footer-col">
+            <h4>Navigate</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Newsroom</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Collaborate</h4>
+            <ul>
+              <li><a href="#">Explore careers</a></li>
+              <li><a href="#">Become a rider</a></li>
+              <li><a href="#">Feed your team</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>Follow us on</h4>
+            <div class="social-icons">
+              <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+              <a href="#"><i class="ri-instagram-fill"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="footer-bottom">
+        <p>Copyright © 2025 foodpanda</p>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
+</html>
