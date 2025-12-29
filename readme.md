@@ -18,6 +18,7 @@ This is a frontend clone of the Foodpanda website created to practice layout bui
 
 - HTML5
 - CSS3
+- Javascript
 - Flexbox
 - CSS Grid
 - Media Queries
