@@ -1,0 +1,521 @@
+/* Navigation Styles */
+.main-nav {
+  background: #fff;
+  padding: 15px 5%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+.nav-item .arrow {
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.saved-jobs {
+  color: #ff2b85;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.lang-dropdown {
+  background: #ff2b85;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* Hero Section Styles */
+.careers-hero {
+  background-color: #ffb4be; /* Soft pink background */
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 10%;
+  overflow: hidden;
+}
+
+.hero-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-text {
+  flex: 1.2;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+  font-weight: 900;
+  color: #333;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 50px;
+}
+
+/* Search Box Styling */
+.search-box {
+  background: #fff;
+  padding: 10px 10px 10px 30px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+}
+
+.search-box input {
+  border: none;
+  flex: 1;
+  font-size: 18px;
+  outline: none;
+  font-weight: 600;
+}
+
+.search-icon-btn {
+  background-color: #ff2b85;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Mascot Image Styling */
+.hero-visual {
+  flex: 0.8;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mascot-img {
+  width: 100%;
+  max-width: 500px;
+  transform: rotate(5deg);
+}
+
+/* About Love Section Styles */
+.about-love-section {
+  padding: 100px 5%;
+  background-color: #f8faff; /* Very light blue/grey background */
+  display: flex;
+  justify-content: center;
+}
+
+.about-container {
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Text Content Area */
+.about-content {
+  flex: 1;
+}
+
+.about-title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #ff2b85; /* Brand pink for the heading */
+  margin-bottom: 25px;
+}
+
+.about-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+/* Mascot and Button Styling */
+.cta-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+.mini-panda {
+  position: absolute;
+  top: -20px;
+  left: 10px;
+  width: 60px;
+  z-index: 1;
+}
+
+.btn-find-more {
+  display: inline-block;
+  background-color: #ff2b85;
+  color: #fff;
+  padding: 15px 40px;
+  border-radius: 12px; /* Slightly squarer than pill-shape per image */
+  text-decoration: none;
+  font-weight: 800;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 15px rgba(255, 43, 133, 0.3);
+  position: relative;
+  z-index: 2;
+}
+
+/* Image Styling */
+.about-visual {
+  flex: 1;
+}
+
+.team-img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px; /* Large rounded corners for the photo */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.next {
+  flex-direction: row-reverse;
+}
+
+/* Stats Section Styles */
+.stats-section {
+  background-color: #ffb4be; /* Consistent pink background from hero */
+  padding: 100px 5%;
+  text-align: center;
+}
+
+.stats-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.stats-main-heading {
+  font-size: 42px;
+  font-weight: 800;
+  color: #333;
+  margin-bottom: 60px;
+}
+
+.stats-content-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Grid Styling */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  flex: 1;
+}
+
+.stat-card {
+  background: #ffffff;
+  padding: 40px 20px;
+  border-radius: 20px;
+  border: 2px solid rgba(255, 43, 133, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 180px;
+  transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 900;
+  color: #ff2b85;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 800;
+  color: #ff2b85;
+  letter-spacing: 1px;
+}
+
+/* Mascot Styling */
+.stats-mascot {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.waving-panda {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+/* Job Roles Section Styles */
+.job-roles-section {
+  padding: 100px 5%;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.roles-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.roles-main-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #ff2b85; /* Brand pink */
+  margin-bottom: 80px;
+  text-align: left;
+}
+
+/* Roles Grid Layout */
+.roles-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+/* Individual Card Styling */
+.job-card {
+  flex: 1;
+  background: #fff;
+  border: 1.5px solid #ff2b85;
+  border-radius: 16px;
+  padding: 60px 30px 40px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.job-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(255, 43, 133, 0.1);
+}
+
+/* Card Badge & Icons */
+.brand-badge {
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #ff2b85;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand-badge img {
+  width: 40px;
+}
+
+.save-job-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #ff2b85;
+  cursor: pointer;
+}
+
+/* Text Content within Card */
+.job-card-content {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.job-title {
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.job-location {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+}
+
+.pin-icon {
+  color: #ff2b85;
+  margin-right: 5px;
+}
+
+/* Read More Button */
+.btn-read-more {
+  background-color: #ff2b85;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 0;
+  border-radius: 50px;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn-read-more:hover {
+  background-color: #d70f64;
+}
+
+/* --- Responsive Media Queries --- */
+
+@media (max-width: 992px) {
+  .roles-grid {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .job-card {
+    flex: 0 0 45%; /* 2 per row on tablets */
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .job-card {
+    flex: 0 0 100%; /* Full width on mobile */
+  }
+  .roles-main-title {
+    font-size: 28px;
+    text-align: center;
+  }
+}
+/* --- Responsive Media Queries --- */
+
+@media (max-width: 992px) {
+  .stats-content-flex {
+    flex-direction: column;
+  }
+
+  .stats-grid {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .stats-main-heading {
+    font-size: 28px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr; /* Stack cards on small mobile */
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+}
+/* --- Responsive Media Queries --- */
+
+@media (max-width: 992px) {
+  .about-container {
+    flex-direction: column; /* Stacks text on top of image */
+    text-align: left;
+    gap: 40px;
+  }
+
+  .about-title {
+    font-size: 32px;
+  }
+
+  .about-description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-love-section {
+    padding: 60px 20px;
+  }
+
+  .btn-find-more {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* --- Responsive Media Queries --- */
+
+@media (max-width: 1024px) {
+  .hero-text h1 {
+    font-size: 48px;
+  }
+  .hero-text p {
+    font-size: 24px;
+  }
+  .links {
+    display: none;
+  } /* Hide complex nav on tablet */
+}
+
+@media (max-width: 768px) {
+  .careers-hero {
+    padding: 40px 20px;
+  }
+  .hero-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .hero-visual {
+    justify-content: center;
+  }
+  .mascot-img {
+    max-width: 300px;
+  }
+  .search-box {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
